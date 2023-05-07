@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>INFO6250 - Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Tic Tac Toe</h1>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 id="statusText"></h2>
+        <button id="restartBtn">Restart</button>
+        <div class="results">
+            <table>
+              <tr>
+                <th><p>Games Played:</p></th>
+                <th><span id="gamesPlayed">0</span></th>
+              </tr>
+              <tr>
+                <th><p>X Wins:</p></th>
+                <th><span id="xWins">0</span></th>
+              </tr>
+              <tr>
+                <th><p>O Wins:</p></th>
+                <th><span id="oWins">0</span></th>
+              </tr>
+              <tr>
+                <th><p>Ties:</p></th>
+                <th><span id="ties">0</span></th>
+              </tr>
+            </table>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
